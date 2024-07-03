@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1084839454204",
+    "project_id": "clgapp-884c0",
+    "storage_bucket": "clgapp-884c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084839454204:android:63e2ebf019ed7b856d7e79",
+        "android_client_info": {
+          "package_name": "com.example.flutter_university_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgIGLo19sCi8JQtZeiawW6leQh-eYVOhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

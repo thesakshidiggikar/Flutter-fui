@@ -26,14 +26,14 @@ class WelcomeScreen extends StatelessWidget {
                     text: const TextSpan(
                       children: [
                         TextSpan(
-                            text: 'Welcome Back!\n',
+                            text: 'Welcome to Dypiu!\n',
                             style: TextStyle(
                               fontSize: 45.0,
                               fontWeight: FontWeight.w600,
                             )),
                         TextSpan(
                             text:
-                                '\nEnter personal details to your employee account',
+                                '\nFind your class hand-in-hand ! hurry up!',
                             style: TextStyle(
                               fontSize: 16,
                               // height: 0,
@@ -44,7 +44,7 @@ class WelcomeScreen extends StatelessWidget {
                 ),
               )),
           Flexible(
-            flex: 1,
+            flex: 3,
             child: Align(
               alignment: Alignment.bottomRight,
               child: Row(
