@@ -6,14 +6,14 @@ import 'menu.dart'; // Import the circle_avatars_widget.dart file
 class HomeScreen extends StatelessWidget {
   // Example names for circles
   final List<String> names = [
-    "John Doe",
-    "Jane Smith",
-    "Michael Johnson",
+    "Joe",
+    "Jah",
+    "Mic",
     "Emily Brown",
-    "William Taylor",
-    "Sophia Martinez"
-    "Artifical Intelligence",
-    "Machine Learning"
+    "Willor",
+    "Sopez",
+    "Dark",
+    "Emmee"
   ];
 
   @override
@@ -57,6 +57,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ],
         ),
+
         titleSpacing: 0, // Remove default title padding
         backgroundColor: Color(0xFF243E80),
         centerTitle: false,

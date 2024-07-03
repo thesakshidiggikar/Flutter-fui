@@ -20,12 +20,16 @@ class CircleAvatarsWidget extends StatelessWidget {
       ),
       child: Column(
         children: [
+          SizedBox(height: 10),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               buildCircleAvatar(names[0]),
+              SizedBox(width: 10),
               buildCircleAvatar(names[1]),
+              SizedBox(width: 10),
               buildCircleAvatar(names[2]),
+              SizedBox(width: 10),
               buildCircleAvatar(names[3]),
             ],
           ),
@@ -34,11 +38,15 @@ class CircleAvatarsWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               buildCircleAvatar(names[4]),
+              SizedBox(width: 10),
               buildCircleAvatar(names[5]),
+              SizedBox(width: 10),
               buildCircleAvatar(names[6]),
+              SizedBox(width: 10),
               buildCircleAvatar(names[7]),
             ],
           ),
+          SizedBox(height: 10),
         ],
       ),
     );
@@ -68,6 +76,7 @@ class CircleAvatarsWidget extends StatelessWidget {
         SizedBox(height: 5),
         Text(
           name,
+          textAlign: TextAlign.center,
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
