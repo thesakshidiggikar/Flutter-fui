@@ -1,5 +1,3 @@
-// circle_avatars_widget.dart
-
 import 'package:flutter/material.dart';
 
 class CircleAvatarsWidget extends StatelessWidget {
@@ -24,26 +22,26 @@ class CircleAvatarsWidget extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              buildCircleAvatar(names[0]),
+              buildSquareAvatar(names[0]),
               SizedBox(width: 10),
-              buildCircleAvatar(names[1]),
+              buildSquareAvatar(names[1]),
               SizedBox(width: 10),
-              buildCircleAvatar(names[2]),
+              buildSquareAvatar(names[2]),
               SizedBox(width: 10),
-              buildCircleAvatar(names[3]),
+              buildSquareAvatar(names[3]),
             ],
           ),
           SizedBox(height: 10),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              buildCircleAvatar(names[4]),
+              buildSquareAvatar(names[4]),
               SizedBox(width: 10),
-              buildCircleAvatar(names[5]),
+              buildSquareAvatar(names[5]),
               SizedBox(width: 10),
-              buildCircleAvatar(names[6]),
+              buildSquareAvatar(names[6]),
               SizedBox(width: 10),
-              buildCircleAvatar(names[7]),
+              buildSquareAvatar(names[7]),
             ],
           ),
           SizedBox(height: 10),
@@ -52,15 +50,15 @@ class CircleAvatarsWidget extends StatelessWidget {
     );
   }
 
-  Widget buildCircleAvatar(String name) {
+  Widget buildSquareAvatar(String name) {
     return Column(
       children: [
         Container(
           width: 40,
           height: 40,
           decoration: BoxDecoration(
-            shape: BoxShape.circle,
             color: Colors.white,
+            borderRadius: BorderRadius.circular(10), // Curved edges
           ),
           child: Center(
             child: Text(
